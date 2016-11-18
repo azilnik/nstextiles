@@ -35,6 +35,9 @@ a:hover {
 	/*padding: 5%;*/
 
 }
+.smalldot{
+	font-size: 5vw;
+}
 .script{
 	font-family: 'Indie Flower', cursive;
 	color: rgb(224,81,70);
