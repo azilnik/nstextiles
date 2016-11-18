@@ -1,0 +1,41 @@
+body{
+	width: 100%;
+	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245,245,245);
+}
+h1 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 10vw;
+}
+
+p{
+	font-family: 'Bitter', serif;
+	font-size: 5vw;
+}
+a{
+	color:rgb(33,59,225);
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+a:hover {
+    color: rgb(224,81,70);
+    transition: all 0.3s ease;
+}
+
+.container{
+	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    max-width: 80%;
+	/*padding: 5%;*/
+
+}
+.script{
+	font-family: 'Indie Flower', cursive;
+	color: rgb(224,81,70);
+}
