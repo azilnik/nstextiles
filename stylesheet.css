@@ -20,19 +20,19 @@ p{
 a{
 	color:rgb(33,59,225);
 	text-decoration: none;
-	transition: all 0.3s ease;
+	transition: color 0.3s ease;
 }
 a:hover {
     color: rgb(224,81,70);
-    transition: all 0.3s ease;
+    transition: color 0.3s ease;
 }
 
 .container{
-	box-sizing: border-box;
+	/*box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    max-width: 80%;
-	/*padding: 5%;*/
+    -moz-box-sizing: border-box;*/
+    width: 80%;
+    max-width: 1000px;
 
 }
 .smalldot{
@@ -41,4 +41,15 @@ a:hover {
 .script{
 	font-family: 'Indie Flower', cursive;
 	color: rgb(224,81,70);
+}
+@media all and (min-width: 960px) {
+	h1{
+		font-size: 76pt;
+	}
+	p{
+		font-size: 38pt;
+	}
+	.smalldot{
+		font-size: 38pt;
+	}	
 }
